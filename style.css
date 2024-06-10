@@ -381,7 +381,99 @@ form input, #text{
            padding-top: 30px;  
         }
 
+        /* loginnnnnn */
 
+
+        .inbox{
+            text-align: center;
+            padding-top: 10%;
+            line-height: 2rem;
+            background: url(https://media.istockphoto.com/id/1204923574/photo/woman-carrying-shopping-bags-with-credit-card-and-mobile-phone-in-hands.jpg?s=1024x1024&w=is&k=20&c=atSHM-v5D98_xC0PSZzHrhfffxBm8x7xtpbk1p-FjQY= );
+            padding-bottom: 300px;
+            
+        }
+        
+        .inbox h2{
+            color: #fff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: oblique;
+            font-size: 50px;
+            padding-bottom: 50px;
+            margin-top: -80px;
+        }
+        
+        .inbox .form-group{
+            margin-top: 10px;
+        
+        }
+        
+        .inbox .form-group #name{
+            padding: 15px;
+            margin: 5px 20px;
+            width: 25%;
+            border-radius: 30px;
+            border: 0px solid rgb(223, 190, 190);
+            color: #b51212;
+        }
+        
+        .inbox .form-group #message{
+            padding: 50px 20px;
+            margin: 5px 20px;
+            width: 60%;
+            border-radius: 20px;
+            border: 0px solid black;
+        }
+        
+        .inbox .form-group #email {
+            padding: 15px;
+            margin: 5px 20px;
+            width: 30%;
+            border-radius: 30px;
+            border: 1px solid yellow;
+            background: #fff;
+        
+        }
+        .inbox .form-group #password{
+            padding: 15px;
+            margin: 5px 20px;
+            width: 30%;
+            border-radius: 30px;
+            border: 1px solid yellow;
+            background: #fff;
+        }
+        
+          .inbox .checkbox{
+            color: yellow;
+            float: center;
+        }
+        
+        .login{
+            padding: 5px 15px;
+            border: 2px solid yellow;
+            border-radius: 30px; 
+            margin-top: 20px;
+            margin-right: 25px;
+            width: 10%;
+            background: black;
+            color: azure;
+            font-style: italic;
+            cursor: pointer;
+        }
+        
+        .submit{
+            padding: 5px 15px;
+            border: 2px solid yellow;
+            border-radius: 30px;
+            margin-left: 25px;
+            width: 10%;
+            color: black;
+            font-style: italic;
+            cursor: pointer;
+        }
+        
+        .reg{
+            overflow-x: hidden;
+        }
 
         
    /* media   */
@@ -396,6 +488,7 @@ form input, #text{
         font-family: Arial, Helvetica, sans-serif; 
         line-height: 1.6;
         overflow-x: hidden;
+        width: 100vw;
        
     }
    
@@ -406,8 +499,7 @@ form input, #text{
         background: linear-gradient(rgb(234, 193, 13),black);
         color: #fff;
         width: 100vw;
-        height: 20vh; 
-        overflow: auto;
+        height: 25vh; 
     }
     
     .navbar a{
@@ -455,7 +547,7 @@ form input, #text{
         padding: 0px 0px;
         padding-top: 40px;
         padding-left: -50px;
-        padding-right: 0px;
+        padding-right: 40px;
         margin: -20px;
     }
     
@@ -637,8 +729,7 @@ form input, #text{
         }
     
         .elctronic{
-            /* text-align: center; */
-            /* padding-left: 50px; */
+        
             padding-top: 100px;
             margin-top: -80px;
     
@@ -682,6 +773,11 @@ form input, #text{
                 padding-top: 30px;
                 padding-left: 50px;
                 margin-left: 30px;
+            }
+
+            .loginn{
+                padding-top: 80px;
+                margin-top: 30px;
             }
     
          
